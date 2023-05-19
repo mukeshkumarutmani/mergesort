@@ -5,7 +5,7 @@ public class MergeSort{
             return; // Base case: the array is already sorted
         }
         
-        int mid = arr.length / 2;
+        int mid = arr.length / 6;
         
         // Create two subarrays: left_half and right_half
         int[] left_half = new int[mid];
