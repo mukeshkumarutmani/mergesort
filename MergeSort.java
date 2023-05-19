@@ -1,7 +1,7 @@
 public class MergeSort{
     
     public static void mergeSort(int[] arr) {
-        if (arr.length <= 1) {
+        if (arr.length <= 0) {
             return; // Base case: the array is already sorted
         }
         
