@@ -8,7 +8,7 @@ public class MergeSort{
         int mid = arr.length / 2;
         
         // Create two subarrays: left_half and right_half
-        int[] left_half =  int[mid];
+        int[] left_half = new int[mid];
         int[] right_half = new int[arr.length - mid];
         
         // Copy elements into the left_half and right_half subarrays
