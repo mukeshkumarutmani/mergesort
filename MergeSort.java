@@ -60,7 +60,7 @@ public class MergeSort{
     }
     
     public static void main(String[] args) {
-        int[] arr = {7, 3, 9, 2, 6, 5};
+        int[] arr = {7, 3, 9, 2, 6, 5, 1};
         mergeSort(arr);
         
         // Print the sorted array
